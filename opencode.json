@@ -1,0 +1,22 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "default_agent": "build",
+  "agents": {
+    "ceo": {
+      "description": "Strategic decision maker for web development projects",
+      "prompt_file": ".opencode/agents/ceo.md"
+    },
+    "frontend-designer": {
+      "description": "Senior frontend designer for UI/UX design",
+      "prompt_file": ".opencode/agents/frontend-designer.md"
+    },
+    "frontend-developer": {
+      "description": "Senior CSS/HTML/JS developer for frontend programming",
+      "prompt_file": ".opencode/agents/frontend-developer.md"
+    }
+  },
+  "instructions": [
+    "AGENTS.md",
+    ".opencode/agents/"
+  ]
+}
